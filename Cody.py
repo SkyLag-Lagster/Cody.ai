@@ -34,15 +34,15 @@ def speak(audio):
     engine.runAndWait()
 
 kum = input("Enter Username: ")
-if kum == 'Kumudaksh':
+if kum == 'SkyLag':
     password = input("Enter password: ")
-    if password == "fixlags":
+    if password == "password":
         speak("Welcome back boss!")
     else:
         speak("That is not a valid password!I will contine with another name.")
         kum = input("Enter another name: ")
 
-    if kum == 'Narhari':
+    if kum == 'LagSky':
         passw = input("Enter password: ")
         if passw == 'sayar':
             speak("Hello! big brother of boss!")
